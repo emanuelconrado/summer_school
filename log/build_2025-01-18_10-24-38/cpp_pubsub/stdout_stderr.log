@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 50%] Built target talker
+[ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[01m[K/home/duel/ros2/src/cpp_pubsub/src/subscriber_member_function.cpp:9:48:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPrt[m[K’ in ‘[01m[Kclass rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >[m[K’ does not name a type
+    9 |   rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPrt[m[K subscription_;
+      |                                                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/duel/ros2/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/duel/ros2/src/cpp_pubsub/src/subscriber_member_function.cpp:13:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalSubscriber[m[K’ has no member named ‘[01m[Ksubscription_[m[K’
+   13 |     this->[01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::String>("topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+      |           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/duel/ros2/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K At global scope:
+[01m[K/home/duel/ros2/src/cpp_pubsub/src/subscriber_member_function.cpp:17:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid MinimalSubscriber::topic_callback(const String&) const[m[K’
+   17 | void [01;31m[KMinimalSubscriber[m[K::topic_callback(const std_msgs::msg::String &msg) const {
+      |      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/duel/ros2/src/cpp_pubsub/src/subscriber_member_function.cpp:10:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid MinimalSubscriber::topic_callback(const String&)[m[K’
+   10 |   void [01;36m[Ktopic_callback[m[K(const std_msgs::msg::String &msg);
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/duel/ros2/src/cpp_pubsub/src/subscriber_member_function.cpp:7:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass MinimalSubscriber[m[K’ defined here
+    7 | class [01;36m[KMinimalSubscriber[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

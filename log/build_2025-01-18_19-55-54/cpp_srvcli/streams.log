@@ -1,0 +1,54 @@
+[0.050s] Invoking command in '/home/duel/ros2/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/duel/ros2/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/duel/ros2/install/cpp_srvcli
+[3.709s] -- The C compiler identification is GNU 9.5.0
+[4.821s] -- The CXX compiler identification is GNU 9.5.0
+[4.979s] -- Detecting C compiler ABI info
+[5.169s] -- Detecting C compiler ABI info - done
+[5.175s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.176s] -- Detecting C compile features
+[5.211s] -- Detecting C compile features - done
+[5.216s] -- Detecting CXX compiler ABI info
+[5.357s] -- Detecting CXX compiler ABI info - done
+[5.364s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.364s] -- Detecting CXX compile features
+[5.364s] -- Detecting CXX compile features - done
+[5.436s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.733s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.076s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[6.381s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.562s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.604s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.520s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.722s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.427s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.464s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.817s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.876s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.918s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.042s] -- Looking for pthread.h
+[10.185s] -- Looking for pthread.h - found
+[10.185s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.279s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.280s] -- Found Threads: TRUE  
+[10.539s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[10.682s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.899s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.899s] -- Configured cppcheck include dirs: 
+[10.899s] -- Configured cppcheck exclude dirs and/or files: 
+[10.901s] -- Added test 'lint_cmake' to check CMake code style
+[10.902s] -- Added test 'uncrustify' to check C / C++ code style
+[10.902s] -- Configured uncrustify additional arguments: 
+[10.903s] -- Added test 'xmllint' to check XML markup files
+[10.905s] -- Configuring done
+[10.915s] -- Generating done
+[10.919s] -- Build files have been written to: /home/duel/ros2/build/cpp_srvcli
+[10.929s] Invoked command in '/home/duel/ros2/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/duel/ros2/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/duel/ros2/install/cpp_srvcli
+[10.931s] Invoking command in '/home/duel/ros2/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/duel/ros2/build/cpp_srvcli -- -j12 -l12
+[10.980s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[12.355s] [01m[K/home/duel/ros2/src/cpp_srvcli/src/add_two_ints_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_intrfaces/srv/add_two_ints.hpp: No such file or directory
+[12.355s]     2 | #include [01;31m[K"example_intrfaces/srv/add_two_ints.hpp"[m[K
+[12.355s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.355s] compilation terminated.
+[12.360s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+[12.361s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/server.dir/all] Error 2
+[12.361s] gmake: *** [Makefile:146: all] Error 2
+[12.364s] Invoked command in '/home/duel/ros2/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/duel/ros2/build/cpp_srvcli -- -j12 -l12

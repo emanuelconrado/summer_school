@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target server[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable server[0m
+[100%] Built target server
+-- Install configuration: ""
+-- Installing: /home/duel/ros2/install/cpp_srvcli/lib/cpp_srvcli/server
+-- Set runtime path of "/home/duel/ros2/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+-- Installing: /home/duel/ros2/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+-- Installing: /home/duel/ros2/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+-- Installing: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+-- Installing: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+-- Installing: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+-- Installing: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+-- Installing: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+-- Installing: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+-- Installing: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+-- Installing: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+-- Installing: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+-- Installing: /home/duel/ros2/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+-- Installing: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+-- Installing: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+-- Installing: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/package.xml

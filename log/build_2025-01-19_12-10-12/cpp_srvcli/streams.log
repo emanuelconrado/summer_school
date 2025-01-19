@@ -1,0 +1,13 @@
+[0.011s] Invoking command in '/home/duel/ros2/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/duel/ros2/build/cpp_srvcli -- -j12 -l12
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.063s] [ 50%] Built target server
+[0.066s] [ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[1.802s] [01m[K/home/duel/ros2/src/cpp_srvcli/src/add_two_ints_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.802s] [01m[K/home/duel/ros2/src/cpp_srvcli/src/add_two_ints_client.cpp:33:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Client<example_interfaces::srv::AddTwoInts>[m[K’ {aka ‘[01m[Kclass rclcpp::Client<example_interfaces::srv::AddTwoInts>[m[K’} has no member named ‘[01m[Kassync_send_request[m[K’; did you mean ‘[01m[Kasync_send_request[m[K’?
+[1.802s]    33 |   auto result = client->[01;31m[Kassync_send_request[m[K(request);
+[1.802s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.802s]       |                         [32m[Kasync_send_request[m[K
+[2.228s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+[2.229s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[2.229s] gmake: *** [Makefile:146: all] Error 2
+[2.232s] Invoked command in '/home/duel/ros2/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/duel/ros2/build/cpp_srvcli -- -j12 -l12

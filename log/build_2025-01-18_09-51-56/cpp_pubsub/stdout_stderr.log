@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/duel/ros2/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/duel/ros2/src/cpp_pubsub/src/publisher_member_function.cpp:37:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   37 | int main([01;35m[Kint argc[m[K, char** argv){
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/duel/ros2/src/cpp_pubsub/src/publisher_member_function.cpp:37:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   37 | int main(int argc, [01;35m[Kchar** argv[m[K){
+      |                    [01;35m[K~~~~~~~^~~~[m[K
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: ""
+-- Installing: /home/duel/ros2/install/cpp_pubsub/lib/cpp_pubsub/talker
+-- Set runtime path of "/home/duel/ros2/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+-- Installing: /home/duel/ros2/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+-- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+-- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+-- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+-- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/package.xml

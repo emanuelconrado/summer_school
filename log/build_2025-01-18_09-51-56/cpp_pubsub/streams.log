@@ -1,0 +1,33 @@
+[0.011s] Invoking command in '/home/duel/ros2/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/duel/ros2/build/cpp_pubsub -- -j12 -l12
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.764s] [01m[K/home/duel/ros2/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.764s] [01m[K/home/duel/ros2/src/cpp_pubsub/src/publisher_member_function.cpp:37:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.764s]    37 | int main([01;35m[Kint argc[m[K, char** argv){
+[1.764s]       |          [01;35m[K~~~~^~~~[m[K
+[1.764s] [01m[K/home/duel/ros2/src/cpp_pubsub/src/publisher_member_function.cpp:37:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.765s]    37 | int main(int argc, [01;35m[Kchar** argv[m[K){
+[1.765s]       |                    [01;35m[K~~~~~~~^~~~[m[K
+[2.512s] [100%] [32m[1mLinking CXX executable talker[0m
+[2.636s] [100%] Built target talker
+[2.647s] Invoked command in '/home/duel/ros2/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/duel/ros2/build/cpp_pubsub -- -j12 -l12
+[2.657s] Invoking command in '/home/duel/ros2/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/duel/ros2/build/cpp_pubsub
+[2.664s] -- Install configuration: ""
+[2.664s] -- Installing: /home/duel/ros2/install/cpp_pubsub/lib/cpp_pubsub/talker
+[2.665s] -- Set runtime path of "/home/duel/ros2/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[2.665s] -- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[2.665s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[2.665s] -- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[2.665s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[2.665s] -- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[2.665s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[2.666s] -- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[2.666s] -- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[2.666s] -- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[2.666s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[2.666s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[2.666s] -- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[2.666s] -- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[2.666s] -- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[2.666s] -- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[2.668s] Invoked command in '/home/duel/ros2/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/duel/ros2/build/cpp_pubsub

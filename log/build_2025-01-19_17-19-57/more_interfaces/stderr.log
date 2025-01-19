@@ -1,0 +1,1 @@
+[0mCMake Error: The source "/home/duel/ros2/src/more_interfaces/CMakeLists.txt" does not match the source "/home/duel/ros2/more_interfaces/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m

@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.000531] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000558] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.007696] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.008324] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.008961] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/duel/ros2/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/home/duel/ros2/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,4505,1'), ('TMUX_BIN', '/usr/bin/tmux'), ('USER', 'duel'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('FZF_DEFAULT_OPTS', '--height 25%'), ('GIT_PATH', '/home/duel'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/duel'), ('OLDPWD', '/home/duel'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '2252'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/duel/ros2/install'), ('ATHAME_SHOW_MODE', '0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'duel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'duel'), ('TERM', 'rxvt-unicode-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PROFILES', 'COLORSCHEME_DARK'), ('PATH', '/home/duel/.local/bin:/home/duel/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/duel/git/linux-setup/submodules/fzf/bin:/home/duel/git/linux-setup/submodules/fzf/bin:/home/duel/git/linux-setup/submodules/fzf/bin:/home/duel/git/linux-setup/submodules/fzf/bin:/home/duel/git/linux-setup/submodules/fzf/bin'), ('SESSION_MANAGER', 'local/duel-A320M-S2H:@/tmp/.ICE-unix/2228,unix/duel-A320M-S2H:/tmp/.ICE-unix/2228'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/71bb3b5d_3c81_42ee_b248_3f0b79b4a45c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0VIF02'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('TERM_PROGRAM', 'tmux'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('is_vim', "ps -o state= -o comm= -t '#{pane_tty}'     | grep -iqE '^[^TXZ ]+ +(\\S+\\/)?g?(view|n?vim?x?)(diff)?$'"), ('AMENT_PREFIX_PATH', '/home/duel/ros2/install/cpp_pubsub:/home/duel/ros2/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CTAGS_FILE_ONCE', '~/tags-once'), ('ATHAME_ENABLED', '0'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/duel/ros2/build/cpp_pubsub'), ('FZF_DEFAULT_COMMAND', 'ag -l -f --nocolor -g ""'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ATHAME_VIM_PERSIST', '0'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('RUN_TMUX', 'true'), ('COLCON', '1'), ('ATHAME_SHOW_ERROR', '0'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%1'), ('EDITOR', "/usr/bin/vim --servername dog --cmd 'let g:user_mode=1'"), ('CMAKE_PREFIX_PATH', '/home/duel/ros2/install/cpp_pubsub:/home/duel/ros2/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.050762] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.063531] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[0.067172] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.099809] (-) TimerEvent: {}
+[0.200076] (-) TimerEvent: {}
+[0.300357] (-) TimerEvent: {}
+[0.400653] (-) TimerEvent: {}
+[0.500936] (-) TimerEvent: {}
+[0.601230] (-) TimerEvent: {}
+[0.701526] (-) TimerEvent: {}
+[0.801821] (-) TimerEvent: {}
+[0.902114] (-) TimerEvent: {}
+[1.002392] (-) TimerEvent: {}
+[1.102685] (-) TimerEvent: {}
+[1.202965] (-) TimerEvent: {}
+[1.303248] (-) TimerEvent: {}
+[1.403530] (-) TimerEvent: {}
+[1.503808] (-) TimerEvent: {}
+[1.604084] (-) TimerEvent: {}
+[1.704363] (-) TimerEvent: {}
+[1.763922] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/duel/ros2/src/cpp_pubsub/src/subscriber_member_function.cpp:9:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSubscription_\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a template type; did you mean \xe2\x80\x98\x1b[01m\x1b[KSubscription\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.764143] (cpp_pubsub) StderrLine: {'line': b'    9 |   rclcpp::\x1b[01;31m\x1b[KSubscription_\x1b[m\x1b[K<std_msgs::msg::String>::SharedPrt subscription_;\n'}
+[1.764214] (cpp_pubsub) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.764282] (cpp_pubsub) StderrLine: {'line': b'      |           \x1b[32m\x1b[KSubscription\x1b[m\x1b[K\n'}
+[1.764432] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/duel/ros2/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber::MinimalSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.764544] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/duel/ros2/src/cpp_pubsub/src/subscriber_member_function.cpp:13:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass MinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KSubscription_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.764616] (cpp_pubsub) StderrLine: {'line': b'   13 |     this->\x1b[01;31m\x1b[KSubscription_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::String>("topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));\n'}
+[1.764688] (cpp_pubsub) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.804441] (-) TimerEvent: {}
+[1.904680] (-) TimerEvent: {}
+[2.004955] (-) TimerEvent: {}
+[2.105218] (-) TimerEvent: {}
+[2.205515] (-) TimerEvent: {}
+[2.305797] (-) TimerEvent: {}
+[2.406081] (-) TimerEvent: {}
+[2.506366] (-) TimerEvent: {}
+[2.606661] (-) TimerEvent: {}
+[2.706940] (-) TimerEvent: {}
+[2.807218] (-) TimerEvent: {}
+[2.907509] (-) TimerEvent: {}
+[3.007788] (-) TimerEvent: {}
+[3.108067] (-) TimerEvent: {}
+[3.208347] (-) TimerEvent: {}
+[3.308643] (-) TimerEvent: {}
+[3.408921] (-) TimerEvent: {}
+[3.432266] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1\n'}
+[3.432679] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2\n'}
+[3.432976] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.435676] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[3.444246] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[3.454785] (-) EventReactorShutdown: {}

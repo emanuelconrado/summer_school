@@ -1,0 +1,36 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/duel/ros2/src/cpp_srvcli/src/add_two_ints_server.cpp:1[m[K:
+[01m[K/home/duel/ros2/src/cpp_srvcli/src/add_two_ints_server.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/duel/ros2/src/cpp_srvcli/src/add_two_ints_server.cpp:10:21:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   10 |   RCLCPP_INFO(rclcpp[01;31m[K:[m[Kget_logger("rclcpp"), "sending back response: [%ld]", (long int)response->sum);
+      |                     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/duel/ros2/src/cpp_srvcli/src/add_two_ints_server.cpp:1[m[K:
+[01m[K/home/duel/ros2/src/cpp_srvcli/src/add_two_ints_server.cpp:10:21:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   10 |   RCLCPP_INFO(rclcpp[01;31m[K:[m[Kget_logger("rclcpp"), "sending back response: [%ld]", (long int)response->sum);
+      |                     [01;31m[K^[m[K
+[01m[K/home/duel/ros2/src/cpp_srvcli/src/add_two_ints_server.cpp:10:21:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   10 |   RCLCPP_INFO(rclcpp[01;31m[K:[m[Kget_logger("rclcpp"), "sending back response: [%ld]", (long int)response->sum);
+      |                     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

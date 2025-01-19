@@ -1,0 +1,4 @@
+Invoking command in '/home/duel/ros2/build/my_robot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duel/ros2/build/my_robot_controller -- -j12 -l12
+Invoked command in '/home/duel/ros2/build/my_robot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/duel/ros2/build/my_robot_controller -- -j12 -l12
+Invoking command in '/home/duel/ros2/build/my_robot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duel/ros2/build/my_robot_controller
+Invoked command in '/home/duel/ros2/build/my_robot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/duel/ros2/build/my_robot_controller

@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[ 50%] Built target server
+[ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[01m[K/home/duel/ros2/src/cpp_srvcli/src/add_two_ints_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/duel/ros2/src/cpp_srvcli/src/add_two_ints_client.cpp:33:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Client<example_interfaces::srv::AddTwoInts>[m[K’ {aka ‘[01m[Kclass rclcpp::Client<example_interfaces::srv::AddTwoInts>[m[K’} has no member named ‘[01m[Kassync_send_request[m[K’; did you mean ‘[01m[Kasync_send_request[m[K’?
+   33 |   auto result = client->[01;31m[Kassync_send_request[m[K(request);
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                         [32m[Kasync_send_request[m[K
+[01m[K/home/duel/ros2/src/cpp_srvcli/src/add_two_ints_client.cpp:34:12:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   34 |   if(rclcpp[01;31m[K:[m[Kspin_until_future_complete(node, result) == rclcpp::FutureReturnCode::SUCCESS){
+      |            [01;31m[K^[m[K
+      |            [32m[K::[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

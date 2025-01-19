@@ -1,0 +1,28 @@
+[0.010s] Invoking command in '/home/duel/ros2/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/duel/ros2/build/cpp_srvcli -- -j12 -l12
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.063s] [ 50%] Built target server
+[0.066s] [ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[3.083s] [100%] [32m[1mLinking CXX executable client[0m
+[4.559s] [100%] Built target client
+[4.572s] Invoked command in '/home/duel/ros2/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/duel/ros2/build/cpp_srvcli -- -j12 -l12
+[4.581s] Invoking command in '/home/duel/ros2/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/duel/ros2/build/cpp_srvcli
+[4.588s] -- Install configuration: ""
+[4.589s] -- Installing: /home/duel/ros2/install/cpp_srvcli/lib/cpp_srvcli/client
+[4.589s] -- Set runtime path of "/home/duel/ros2/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[4.622s] -- Up-to-date: /home/duel/ros2/install/cpp_srvcli/lib/cpp_srvcli/server
+[4.622s] -- Up-to-date: /home/duel/ros2/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[4.622s] -- Installing: /home/duel/ros2/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[4.622s] -- Up-to-date: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[4.623s] -- Installing: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[4.623s] -- Up-to-date: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[4.623s] -- Installing: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[4.623s] -- Up-to-date: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[4.623s] -- Up-to-date: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[4.623s] -- Up-to-date: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[4.623s] -- Installing: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[4.623s] -- Installing: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[4.624s] -- Up-to-date: /home/duel/ros2/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[4.624s] -- Up-to-date: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[4.624s] -- Up-to-date: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[4.624s] -- Up-to-date: /home/duel/ros2/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[4.626s] Invoked command in '/home/duel/ros2/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/duel/ros2/build/cpp_srvcli

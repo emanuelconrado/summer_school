@@ -1,0 +1,63 @@
+[0.110s] Invoking command in '/home/duel/ros2/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/duel/ros2/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/duel/ros2/install/cpp_pubsub
+[2.309s] -- The C compiler identification is GNU 9.5.0
+[3.474s] -- The CXX compiler identification is GNU 9.5.0
+[3.666s] -- Detecting C compiler ABI info
+[3.949s] -- Detecting C compiler ABI info - done
+[3.955s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.956s] -- Detecting C compile features
+[3.973s] -- Detecting C compile features - done
+[3.977s] -- Detecting CXX compiler ABI info
+[4.105s] -- Detecting CXX compiler ABI info - done
+[4.112s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.112s] -- Detecting CXX compile features
+[4.112s] -- Detecting CXX compile features - done
+[4.330s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.636s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.981s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[5.375s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.409s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.454s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.643s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.919s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.942s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.382s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.456s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.496s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.643s] -- Looking for pthread.h
+[7.004s] -- Looking for pthread.h - found
+[7.004s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.111s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.111s] -- Found Threads: TRUE  
+[7.425s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.697s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.697s] -- Configured cppcheck include dirs: 
+[7.697s] -- Configured cppcheck exclude dirs and/or files: 
+[7.698s] -- Added test 'lint_cmake' to check CMake code style
+[7.700s] -- Added test 'uncrustify' to check C / C++ code style
+[7.700s] -- Configured uncrustify additional arguments: 
+[7.700s] -- Added test 'xmllint' to check XML markup files
+[7.703s] -- Configuring done
+[7.708s] -- Generating done
+[7.711s] -- Build files have been written to: /home/duel/ros2/build/cpp_pubsub
+[7.719s] Invoked command in '/home/duel/ros2/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/duel/ros2/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/duel/ros2/install/cpp_pubsub
+[7.721s] Invoking command in '/home/duel/ros2/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/duel/ros2/build/cpp_pubsub -- -j12 -l12
+[7.761s] Invoked command in '/home/duel/ros2/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/duel/ros2/build/cpp_pubsub -- -j12 -l12
+[7.771s] Invoking command in '/home/duel/ros2/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/duel/ros2/build/cpp_pubsub
+[7.778s] -- Install configuration: ""
+[7.778s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[7.778s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[7.778s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[7.779s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[7.779s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[7.779s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[7.779s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[7.779s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[7.779s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[7.779s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[7.780s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[7.780s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[7.780s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[7.780s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[7.780s] -- Installing: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[7.782s] Invoked command in '/home/duel/ros2/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/duel/ros2/build/cpp_pubsub

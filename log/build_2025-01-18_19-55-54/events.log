@@ -1,0 +1,215 @@
+[0.000000] (-) TimerEvent: {}
+[0.000801] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000833] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.000852] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.064096] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.068046] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.086069] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.086687] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/duel/ros2/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/home/duel/ros2/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,8927,1'), ('TMUX_BIN', '/usr/bin/tmux'), ('USER', 'duel'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('FZF_DEFAULT_OPTS', '--height 25%'), ('GIT_PATH', '/home/duel'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/duel'), ('OLDPWD', '/home/duel'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '2207'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/duel/ros2/install'), ('ATHAME_SHOW_MODE', '0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'duel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'duel'), ('TERM', 'rxvt-unicode-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PROFILES', 'COLORSCHEME_DARK'), ('PATH', '/home/duel/.local/bin:/home/duel/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/duel/git/linux-setup/submodules/fzf/bin:/home/duel/git/linux-setup/submodules/fzf/bin:/home/duel/git/linux-setup/submodules/fzf/bin'), ('SESSION_MANAGER', 'local/duel-A320M-S2H:@/tmp/.ICE-unix/2176,unix/duel-A320M-S2H:/tmp/.ICE-unix/2176'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20f243e6_74c9_46eb_bc30_47a5d4fbd64b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VRKE02'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.241'), ('TERM_PROGRAM', 'tmux'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('is_vim', "ps -o state= -o comm= -t '#{pane_tty}'     | grep -iqE '^[^TXZ ]+ +(\\S+\\/)?g?(view|n?vim?x?)(diff)?$'"), ('AMENT_PREFIX_PATH', '/home/duel/ros2/install/my_robot_controller:/home/duel/ros2/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CTAGS_FILE_ONCE', '~/tags-once'), ('ATHAME_ENABLED', '0'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/duel/ros2/build/cpp_pubsub'), ('FZF_DEFAULT_COMMAND', 'ag -l -f --nocolor -g ""'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ATHAME_VIM_PERSIST', '0'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('RUN_TMUX', 'true'), ('COLCON', '1'), ('ATHAME_SHOW_ERROR', '0'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%1'), ('EDITOR', "/usr/bin/vim --servername dog --cmd 'let g:user_mode=1'"), ('CMAKE_PREFIX_PATH', '/home/duel/ros2/install/my_robot_controller:/home/duel/ros2/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.099745] (-) TimerEvent: {}
+[0.111276] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.112388] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '/home/duel/ros2/src/cpp_srvcli', '-DCMAKE_INSTALL_PREFIX=/home/duel/ros2/install/cpp_srvcli'], 'cwd': '/home/duel/ros2/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,8927,1'), ('TMUX_BIN', '/usr/bin/tmux'), ('USER', 'duel'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('FZF_DEFAULT_OPTS', '--height 25%'), ('GIT_PATH', '/home/duel'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/duel'), ('OLDPWD', '/home/duel'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '2207'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/duel/ros2/install'), ('ATHAME_SHOW_MODE', '0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'duel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'duel'), ('TERM', 'rxvt-unicode-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PROFILES', 'COLORSCHEME_DARK'), ('PATH', '/home/duel/.local/bin:/home/duel/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/duel/git/linux-setup/submodules/fzf/bin:/home/duel/git/linux-setup/submodules/fzf/bin:/home/duel/git/linux-setup/submodules/fzf/bin'), ('SESSION_MANAGER', 'local/duel-A320M-S2H:@/tmp/.ICE-unix/2176,unix/duel-A320M-S2H:/tmp/.ICE-unix/2176'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20f243e6_74c9_46eb_bc30_47a5d4fbd64b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VRKE02'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.241'), ('TERM_PROGRAM', 'tmux'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('is_vim', "ps -o state= -o comm= -t '#{pane_tty}'     | grep -iqE '^[^TXZ ]+ +(\\S+\\/)?g?(view|n?vim?x?)(diff)?$'"), ('AMENT_PREFIX_PATH', '/home/duel/ros2/install/my_robot_controller:/home/duel/ros2/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CTAGS_FILE_ONCE', '~/tags-once'), ('ATHAME_ENABLED', '0'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/duel/ros2/build/cpp_srvcli'), ('FZF_DEFAULT_COMMAND', 'ag -l -f --nocolor -g ""'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ATHAME_VIM_PERSIST', '0'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('RUN_TMUX', 'true'), ('COLCON', '1'), ('ATHAME_SHOW_ERROR', '0'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%1'), ('EDITOR', "/usr/bin/vim --servername dog --cmd 'let g:user_mode=1'"), ('CMAKE_PREFIX_PATH', '/home/duel/ros2/install/my_robot_controller:/home/duel/ros2/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.199854] (-) TimerEvent: {}
+[0.300158] (-) TimerEvent: {}
+[0.400457] (-) TimerEvent: {}
+[0.500827] (-) TimerEvent: {}
+[0.601160] (-) TimerEvent: {}
+[0.701469] (-) TimerEvent: {}
+[0.801849] (-) TimerEvent: {}
+[0.902191] (-) TimerEvent: {}
+[1.002567] (-) TimerEvent: {}
+[1.102932] (-) TimerEvent: {}
+[1.203430] (-) TimerEvent: {}
+[1.303824] (-) TimerEvent: {}
+[1.404187] (-) TimerEvent: {}
+[1.504496] (-) TimerEvent: {}
+[1.604825] (-) TimerEvent: {}
+[1.705153] (-) TimerEvent: {}
+[1.805454] (-) TimerEvent: {}
+[1.905796] (-) TimerEvent: {}
+[2.006116] (-) TimerEvent: {}
+[2.106434] (-) TimerEvent: {}
+[2.206761] (-) TimerEvent: {}
+[2.307056] (-) TimerEvent: {}
+[2.407364] (-) TimerEvent: {}
+[2.507701] (-) TimerEvent: {}
+[2.608007] (-) TimerEvent: {}
+[2.708298] (-) TimerEvent: {}
+[2.808592] (-) TimerEvent: {}
+[2.908907] (-) TimerEvent: {}
+[3.009231] (-) TimerEvent: {}
+[3.109569] (-) TimerEvent: {}
+[3.209885] (-) TimerEvent: {}
+[3.247164] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[3.247351] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[3.259976] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[3.309995] (-) TimerEvent: {}
+[3.354440] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[3.364972] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/duel/ros2/build/cpp_pubsub'], 'cwd': '/home/duel/ros2/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,8927,1'), ('TMUX_BIN', '/usr/bin/tmux'), ('USER', 'duel'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('FZF_DEFAULT_OPTS', '--height 25%'), ('GIT_PATH', '/home/duel'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/duel'), ('OLDPWD', '/home/duel'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '2207'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/duel/ros2/install'), ('ATHAME_SHOW_MODE', '0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'duel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'duel'), ('TERM', 'rxvt-unicode-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PROFILES', 'COLORSCHEME_DARK'), ('PATH', '/home/duel/.local/bin:/home/duel/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/duel/git/linux-setup/submodules/fzf/bin:/home/duel/git/linux-setup/submodules/fzf/bin:/home/duel/git/linux-setup/submodules/fzf/bin'), ('SESSION_MANAGER', 'local/duel-A320M-S2H:@/tmp/.ICE-unix/2176,unix/duel-A320M-S2H:/tmp/.ICE-unix/2176'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20f243e6_74c9_46eb_bc30_47a5d4fbd64b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VRKE02'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.241'), ('TERM_PROGRAM', 'tmux'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('is_vim', "ps -o state= -o comm= -t '#{pane_tty}'     | grep -iqE '^[^TXZ ]+ +(\\S+\\/)?g?(view|n?vim?x?)(diff)?$'"), ('AMENT_PREFIX_PATH', '/home/duel/ros2/install/my_robot_controller:/home/duel/ros2/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CTAGS_FILE_ONCE', '~/tags-once'), ('ATHAME_ENABLED', '0'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/duel/ros2/build/cpp_pubsub'), ('FZF_DEFAULT_COMMAND', 'ag -l -f --nocolor -g ""'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ATHAME_VIM_PERSIST', '0'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('RUN_TMUX', 'true'), ('COLCON', '1'), ('ATHAME_SHOW_ERROR', '0'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%1'), ('EDITOR', "/usr/bin/vim --servername dog --cmd 'let g:user_mode=1'"), ('CMAKE_PREFIX_PATH', '/home/duel/ros2/install/my_robot_controller:/home/duel/ros2/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[3.395715] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.410320] (-) TimerEvent: {}
+[3.474335] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[3.506556] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[3.506842] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[3.510415] (-) TimerEvent: {}
+[3.564968] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[3.565164] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[3.565253] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[3.565335] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[3.565461] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[3.565541] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[3.565611] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[3.565676] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[3.565723] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[3.565770] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[3.565817] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[3.592346] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[3.592606] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[3.592695] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/duel/ros2/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[3.594978] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[3.610562] (-) TimerEvent: {}
+[3.710883] (-) TimerEvent: {}
+[3.773328] (cpp_srvcli) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.5.0\n'}
+[3.810999] (-) TimerEvent: {}
+[3.911552] (-) TimerEvent: {}
+[4.011895] (-) TimerEvent: {}
+[4.083929] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[4.112023] (-) TimerEvent: {}
+[4.212303] (-) TimerEvent: {}
+[4.312595] (-) TimerEvent: {}
+[4.412925] (-) TimerEvent: {}
+[4.513234] (-) TimerEvent: {}
+[4.613616] (-) TimerEvent: {}
+[4.714003] (-) TimerEvent: {}
+[4.814397] (-) TimerEvent: {}
+[4.885413] (cpp_srvcli) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.5.0\n'}
+[4.914601] (-) TimerEvent: {}
+[5.014937] (-) TimerEvent: {}
+[5.043019] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.115069] (-) TimerEvent: {}
+[5.215386] (-) TimerEvent: {}
+[5.232528] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.239200] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.239781] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.275414] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.280023] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.315533] (-) TimerEvent: {}
+[5.415833] (-) TimerEvent: {}
+[5.421485] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.427834] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.428084] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.428382] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.499528] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.515976] (-) TimerEvent: {}
+[5.616335] (-) TimerEvent: {}
+[5.716713] (-) TimerEvent: {}
+[5.797280] (cpp_srvcli) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.816826] (-) TimerEvent: {}
+[5.917140] (-) TimerEvent: {}
+[6.017450] (-) TimerEvent: {}
+[6.117820] (-) TimerEvent: {}
+[6.139515] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.217954] (-) TimerEvent: {}
+[6.318270] (-) TimerEvent: {}
+[6.418580] (-) TimerEvent: {}
+[6.445365] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.518696] (-) TimerEvent: {}
+[6.619003] (-) TimerEvent: {}
+[6.626002] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.719128] (-) TimerEvent: {}
+[6.819436] (-) TimerEvent: {}
+[6.919761] (-) TimerEvent: {}
+[7.020056] (-) TimerEvent: {}
+[7.120365] (-) TimerEvent: {}
+[7.220677] (-) TimerEvent: {}
+[7.320965] (-) TimerEvent: {}
+[7.421258] (-) TimerEvent: {}
+[7.521560] (-) TimerEvent: {}
+[7.621827] (-) TimerEvent: {}
+[7.667805] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.721948] (-) TimerEvent: {}
+[7.822258] (-) TimerEvent: {}
+[7.922574] (-) TimerEvent: {}
+[8.022865] (-) TimerEvent: {}
+[8.123160] (-) TimerEvent: {}
+[8.223455] (-) TimerEvent: {}
+[8.323774] (-) TimerEvent: {}
+[8.424076] (-) TimerEvent: {}
+[8.524377] (-) TimerEvent: {}
+[8.584320] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.624544] (-) TimerEvent: {}
+[8.724832] (-) TimerEvent: {}
+[8.785586] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.824967] (-) TimerEvent: {}
+[8.925262] (-) TimerEvent: {}
+[9.025577] (-) TimerEvent: {}
+[9.125867] (-) TimerEvent: {}
+[9.226154] (-) TimerEvent: {}
+[9.326456] (-) TimerEvent: {}
+[9.426778] (-) TimerEvent: {}
+[9.491274] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.526900] (-) TimerEvent: {}
+[9.528004] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.627030] (-) TimerEvent: {}
+[9.727321] (-) TimerEvent: {}
+[9.827603] (-) TimerEvent: {}
+[9.881467] (cpp_srvcli) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[9.927719] (-) TimerEvent: {}
+[9.939635] (cpp_srvcli) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[9.981528] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.027846] (-) TimerEvent: {}
+[10.105987] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.127973] (-) TimerEvent: {}
+[10.228267] (-) TimerEvent: {}
+[10.248585] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.249048] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.328396] (-) TimerEvent: {}
+[10.342858] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.343817] (cpp_srvcli) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.428540] (-) TimerEvent: {}
+[10.528846] (-) TimerEvent: {}
+[10.603316] (cpp_srvcli) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[10.628962] (-) TimerEvent: {}
+[10.729285] (-) TimerEvent: {}
+[10.745745] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.829411] (-) TimerEvent: {}
+[10.929748] (-) TimerEvent: {}
+[10.963103] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.963410] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[10.963535] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.964697] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.966344] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.966452] (cpp_srvcli) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.967123] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.969525] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.978931] (cpp_srvcli) StdoutLine: {'line': b'-- Generating done\n'}
+[10.982602] (cpp_srvcli) StdoutLine: {'line': b'-- Build files have been written to: /home/duel/ros2/build/cpp_srvcli\n'}
+[10.992862] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[10.994482] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[10.994552] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/duel/ros2/build/cpp_srvcli', '--', '-j12', '-l12'], 'cwd': '/home/duel/ros2/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,8927,1'), ('TMUX_BIN', '/usr/bin/tmux'), ('USER', 'duel'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('FZF_DEFAULT_OPTS', '--height 25%'), ('GIT_PATH', '/home/duel'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/duel'), ('OLDPWD', '/home/duel'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '2207'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/duel/ros2/install'), ('ATHAME_SHOW_MODE', '0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'duel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'duel'), ('TERM', 'rxvt-unicode-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PROFILES', 'COLORSCHEME_DARK'), ('PATH', '/home/duel/.local/bin:/home/duel/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/duel/git/linux-setup/submodules/fzf/bin:/home/duel/git/linux-setup/submodules/fzf/bin:/home/duel/git/linux-setup/submodules/fzf/bin'), ('SESSION_MANAGER', 'local/duel-A320M-S2H:@/tmp/.ICE-unix/2176,unix/duel-A320M-S2H:/tmp/.ICE-unix/2176'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/20f243e6_74c9_46eb_bc30_47a5d4fbd64b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VRKE02'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.241'), ('TERM_PROGRAM', 'tmux'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('is_vim', "ps -o state= -o comm= -t '#{pane_tty}'     | grep -iqE '^[^TXZ ]+ +(\\S+\\/)?g?(view|n?vim?x?)(diff)?$'"), ('AMENT_PREFIX_PATH', '/home/duel/ros2/install/my_robot_controller:/home/duel/ros2/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CTAGS_FILE_ONCE', '~/tags-once'), ('ATHAME_ENABLED', '0'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/duel/ros2/build/cpp_srvcli'), ('FZF_DEFAULT_COMMAND', 'ag -l -f --nocolor -g ""'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ATHAME_VIM_PERSIST', '0'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('RUN_TMUX', 'true'), ('COLCON', '1'), ('ATHAME_SHOW_ERROR', '0'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%1'), ('EDITOR', "/usr/bin/vim --servername dog --cmd 'let g:user_mode=1'"), ('CMAKE_PREFIX_PATH', '/home/duel/ros2/install/my_robot_controller:/home/duel/ros2/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[11.029881] (-) TimerEvent: {}
+[11.043948] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[11.130010] (-) TimerEvent: {}
+[11.230290] (-) TimerEvent: {}
+[11.330586] (-) TimerEvent: {}
+[11.430902] (-) TimerEvent: {}
+[11.531209] (-) TimerEvent: {}
+[11.631478] (-) TimerEvent: {}
+[11.731765] (-) TimerEvent: {}
+[11.832067] (-) TimerEvent: {}
+[11.932420] (-) TimerEvent: {}
+[12.032739] (-) TimerEvent: {}
+[12.133031] (-) TimerEvent: {}
+[12.233331] (-) TimerEvent: {}
+[12.333698] (-) TimerEvent: {}
+[12.418543] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/duel/ros2/src/cpp_srvcli/src/add_two_ints_server.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kexample_intrfaces/srv/add_two_ints.hpp: No such file or directory\n'}
+[12.418804] (cpp_srvcli) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"example_intrfaces/srv/add_two_ints.hpp"\x1b[m\x1b[K\n'}
+[12.418894] (cpp_srvcli) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.418951] (cpp_srvcli) StderrLine: {'line': b'compilation terminated.\n'}
+[12.424485] (cpp_srvcli) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1\n'}
+[12.424949] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/server.dir/all] Error 2\n'}
+[12.425322] (cpp_srvcli) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.428047] (cpp_srvcli) CommandEnded: {'returncode': 2}
+[12.431991] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 2}
+[12.433791] (-) TimerEvent: {}
+[12.442564] (-) EventReactorShutdown: {}

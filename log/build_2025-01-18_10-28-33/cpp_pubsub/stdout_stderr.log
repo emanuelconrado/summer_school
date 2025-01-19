@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 50%] Built target talker
+[ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[01m[K/home/duel/ros2/src/cpp_pubsub/src/subscriber_member_function.cpp:9:11:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscription_[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type; did you mean ‘[01m[KSubscription[m[K’?
+    9 |   rclcpp::[01;31m[KSubscription_[m[K<std_msgs::msg::String>::SharedPrt subscription_;
+      |           [01;31m[K^~~~~~~~~~~~~[m[K
+      |           [32m[KSubscription[m[K
+[01m[K/home/duel/ros2/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/duel/ros2/src/cpp_pubsub/src/subscriber_member_function.cpp:13:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MinimalSubscriber[m[K’ has no member named ‘[01m[KSubscription_[m[K’
+   13 |     this->[01;31m[KSubscription_[m[K = this->create_subscription<std_msgs::msg::String>("topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+      |           [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
